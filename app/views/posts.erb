@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Yippee! &nbsp;&nbsp;All Posts!</h2>
+  <ul>
+  <% @posts.each do |post| %>
+    <li><a href="/post/<%=post.id%>"><%= post.title %></a></li>
+  <% end %>
+</ul>
+</div>

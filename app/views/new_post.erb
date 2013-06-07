@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Create a New Post</h1>
+
+  <form name='new_post' action='/post/new' method='post'>
+    <input type='text' name='post[title]' placeholder="Blog Post Title" required><br><br>
+    <input type='text' name='tag' placeholder="What Tag? (not required)"><br><br>
+    <textarea name='post[body]' rows="10" cols="60" placeholder="Write Stuff" required></textarea><br><br>
+    <input type='submit' value='Submit Post!'>
+  </form>
+  
+</div>
+ 
